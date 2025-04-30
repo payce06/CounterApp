@@ -14,3 +14,12 @@ decrementBtn.addEventListener('click', () => {
     count--;
     updateDisplay();
 })
+
+resetBtn.addEventListener('click', () => {
+    count = 0;
+    updateDisplay();
+});
+
+function updateDisplay(){
+    countDisplay.textContent = count;
+}
