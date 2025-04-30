@@ -30,3 +30,13 @@ body {
     cursor: pointers;
     transition: background 0.3s;
 }
+
+#increment {
+    background-color: #4caf50;
+    color: white;
+}
+
+#decrement {
+    background-color: #f44336;
+    color: white;
+}
